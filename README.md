@@ -22,17 +22,18 @@ Implementação prática de Transfer Learning para classificação binária de i
   - Dense(1, sigmoid) - saída binária
 
 ## 📁 Estrutura do Projeto
-projeto_transfer_learning/
-├── bananas/ # 100 fotos de bananas
-├── macas/ # 100 fotos de maçãs
-├── train_model.py # Treina o modelo
-├── test_model.py # Testa o modelo
-├── requirements.txt # Dependências
-├── README.md # Esta documentação
-└── results/ # Gerado automaticamente
-├── modelo_final.h5 # Modelo treinado
-├── historico_treino.npy # Histórico do treino
-└── grafico_treinamento.png # Gráficos de performance
+
+    projeto_transfer_learning/
+    ├── bananas/                    # 100 fotos de bananas
+    ├── macas/                      # 100 fotos de maçãs
+    ├── train_model.py              # Treina o modelo
+    ├── test_model.py               # Testa o modelo
+    ├── requirements.txt            # Dependências
+    ├── README.md                   # Esta documentação
+    └── results/                    # Gerado automaticamente
+        ├── modelo_final.h5         # Modelo treinado
+        ├── historico_treino.npy    # Histórico do treino
+        └── grafico_treinamento.png # Gráficos de performance
 
 
 ## 🚀 Como Executar
